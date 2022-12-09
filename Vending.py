@@ -12,3 +12,6 @@
  
 #Additional Features 
 #●	A method of categorising items in the vending machine to improve the user experience (e.g. ‘Chocolate’ or ‘Hot Drinks’).
+
+drinks={'1':'Coke','2':'Mineral Water','3':'Orange Juice',
+'4':'Sprite','5':'Pepsi','6':'Fanta','7':'Red Bull','8':'Monster'}
