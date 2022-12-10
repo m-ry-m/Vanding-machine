@@ -13,5 +13,31 @@
 #Additional Features 
 #●	A method of categorising items in the vending machine to improve the user experience (e.g. ‘Chocolate’ or ‘Hot Drinks’).
 
-drinks={'1':'Coke','2':'Mineral Water','3':'Orange Juice',
-'4':'Sprite','5':'Pepsi','6':'Fanta','7':'Red Bull','8':'Monster'}
+#Menu
+#Drink
+a='Coke'
+b='Mineral Water'
+c='Orange Juice'
+d='Sprite'
+e='Pepsi'
+f='Fanta'
+g='Red Bull'
+h='Monster drink'
+#Snacks
+i='Lays'
+j='Pringles'
+k='Oreo'
+l='Doritoz'
+m='Cheetoz'
+n='Ringos'
+o='Bugles'
+p='Potato Sticks'
+print('Menu:')
+i+=1
+
+
+
+menu=['Coke','Mineral water','Fanta','Monster drink','Orange juice','Sprite','Red Bull','']
+print('Menu:')
+for i in range(len(menu)):
+    print(i,menu[i])
