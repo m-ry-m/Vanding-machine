@@ -14,30 +14,15 @@
 #●	A method of categorising items in the vending machine to improve the user experience (e.g. ‘Chocolate’ or ‘Hot Drinks’).
 
 #Menu
-#Drink
-a='Coke'
-b='Mineral Water'
-c='Orange Juice'
-d='Sprite'
-e='Pepsi'
-f='Fanta'
-g='Red Bull'
-h='Monster drink'
+print('Menu:')
+#drinks
+drinks=['Coke','Mineral water','Fanta','Monster drink','Orange juice','Sprite','Red Bull','Pepsi']
+print('Drinks:')
+for i in range(len(drinks)):
+    print(i,drinks[i])
+    
 #Snacks
-i='Lays'
-j='Pringles'
-k='Oreo'
-l='Doritoz'
-m='Cheetoz'
-n='Ringos'
-o='Bugles'
-p='Potato Sticks'
-print('Menu:')
-i+=1
-
-
-
-menu=['Coke','Mineral water','Fanta','Monster drink','Orange juice','Sprite','Red Bull','']
-print('Menu:')
-for i in range(len(menu)):
-    print(i,menu[i])
+snacks=['Lays','Pringles','Oreo','Doritoz','Cheetoz','Ringos','Bugles','Potato Sticks']
+print('\nSnacks:')
+for i in range(len(snacks)):
+    print(i,snacks[i])
